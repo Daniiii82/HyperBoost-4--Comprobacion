@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>HyperBoost</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
 
@@ -16,50 +16,102 @@
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-lg navegacion mb-5 ">
-    <div class="container-fluid">
-      <div class="collapse navbar-collapse " id="navbarNavAltMarkup">
-        <div class="navbar-nav">
-          <a class="navbar-brand text-white" href="#">
-            <img src="assets/Imagenes/IconoYlogo.png" alt="Logo de hyperboost es un turbo" width="44" height="35"
-              class="d-inline-block align-text-top">
-            Inicio
-          </a>
-          <a class="nav-link text-white" href="index_nuestros_turbos.html">Nuestros Turbos</a>
-          <a class="nav-link text-white" href="#">Contacto</a>
 
+  <!--   barra de navegacion -->
+  <div class="container-fluid">
+    <nav class="navbar navbar-expand-lg navegacion mb-5 ">
+      <div class="container-fluid">
+        <div class="collapse navbar-collapse " id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="navbar-brand text-white" href="#">
+              <img src="assets/Imagenes/IconoYlogo.png" alt="Logo de hyperboost es un turbo" width="44" height="35"
+                class="d-inline-block align-text-top">
+              Inicio
+            </a>
+            <a class="nav-link text-white" href="index_nuestros_turbos.html">Nuestros Turbos</a>
+            <a class="nav-link text-white" href="index_contacto.html">Contacto</a>
+
+          </div>
         </div>
       </div>
-    </div>
-  </nav>
+    </nav>
+  </div>
+  <!-- Texto de bienvenida -->
+  <div class="container text-center">
+    <h1> ¡Bienvenido a HyperBoost!</h1>
+    <p>Quienes somos?: En HyperBoost vivimos la pasión por el mundo automotriz y el alto rendimiento. Somos una
+      empresa especializada en la venta de turbos, accesorios y componentes para vehículos, creada con el objetivo de
+      ofrecer a nuestros clientes productos de calidad que mejoren la potencia, el desempeño y la experiencia de
+      conducción. Creemos que cada automóvil tiene el potencial de ir más allá, y por eso trabajamos constantemente
+      para brindar soluciones confiables, modernas y adaptadas a las necesidades de cada conductor.
 
+      Nos enfocamos en ofrecer productos que combinen tecnología, durabilidad y rendimiento, pensando tanto en amantes
+      de los carros modificados como en personas que desean mejorar la eficiencia y respuesta de su vehículo. Nuestro
+      compromiso va más allá de vender piezas automotrices; buscamos construir confianza con cada cliente mediante una
+      atención personalizada, asesoría profesional y un servicio enfocado en la satisfacción y seguridad.
+
+      En HyperBoost entendemos que el rendimiento no solo se trata de velocidad, sino también de calidad, pasión e
+      innovación. Por eso seleccionamos cuidadosamente nuestros productos y nos mantenemos actualizados con las
+      últimas tendencias y avances del sector automotriz. Queremos convertirnos en una marca reconocida por impulsar
+      proyectos, cumplir expectativas y acompañar a cada cliente en el proceso de llevar su vehículo al siguiente
+      nivel.
+    </p>
+  </div>
   <center>
-    <div class="container">
-      <h1> ¡Bienvenido a HyperBoost!</h1>
-      <p>Quienes somos?: En HyperBoost vivimos la pasión por el mundo automotriz y el alto rendimiento. Somos una
-        empresa especializada en la venta de turbos, accesorios y componentes para vehículos, creada con el objetivo de
-        ofrecer a nuestros clientes productos de calidad que mejoren la potencia, el desempeño y la experiencia de
-        conducción. Creemos que cada automóvil tiene el potencial de ir más allá, y por eso trabajamos constantemente
-        para brindar soluciones confiables, modernas y adaptadas a las necesidades de cada conductor.
 
-        Nos enfocamos en ofrecer productos que combinen tecnología, durabilidad y rendimiento, pensando tanto en amantes
-        de los carros modificados como en personas que desean mejorar la eficiencia y respuesta de su vehículo. Nuestro
-        compromiso va más allá de vender piezas automotrices; buscamos construir confianza con cada cliente mediante una
-        atención personalizada, asesoría profesional y un servicio enfocado en la satisfacción y seguridad.
-
-        En HyperBoost entendemos que el rendimiento no solo se trata de velocidad, sino también de calidad, pasión e
-        innovación. Por eso seleccionamos cuidadosamente nuestros productos y nos mantenemos actualizados con las
-        últimas tendencias y avances del sector automotriz. Queremos convertirnos en una marca reconocida por impulsar
-        proyectos, cumplir expectativas y acompañar a cada cliente en el proceso de llevar su vehículo al siguiente
-        nivel.
-      </p>
+    <!-- El codigo siguiente es todo del carrusel -->
+    <div class="t_carousel">
+      <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+            aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+            aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="assets/Imagenes/imagen2.png" class="d-block w-100" alt="Imagen de turbo">
+            <div class="carousel-caption d-none d-md-block">
+              <h5 class="text-danger">GTX3582R</h5>
+              <p class="text-danger">$1,250</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="assets/Imagenes/imagen1.png" class="d-block w-100" alt="imagen de turbo">
+            <div class="carousel-caption d-none d-md-block">
+              <h5 class="text-danger">T04E </h5>
+              <p class="text-danger">$850 </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="assets/Imagenes/Imagen3Turbo.svg" class="d-block w-100" alt="Imagen de un turbo">
+            <div class="carousel-caption d-none d-md-block">
+              <h5 class="text-danger">HyperBoost-XTR-900</h5>
+              <p class="text-danger">$2500</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Siguiente</span>
+        </button>
+      </div>
     </div>
-  
-  
-  <div class="container mt-5">
-<video src="assets/Videos/Video funcionando.mp4" class="object-fit-cover" controls autoplay muted></video>
-</div>
-</center>
+
+
+  </center>
+
+  <footer>
+    <p> &copy; Derechos reservados para HyperBoost | <a class="link_naranja" href="#inicio">Volver al inicio</a></p>
+  </footer>
 </body>
 
 </html>

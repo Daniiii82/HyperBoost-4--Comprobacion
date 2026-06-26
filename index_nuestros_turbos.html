@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Nuestros turbos</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
 
@@ -17,56 +17,102 @@
 
 <body>
     <center>
-    <nav class="navbar navbar-expand-lg navegacion mb-5 ">
-        <div class="container-fluid">
-            <div class="collapse navbar-collapse " id="navbarNavAltMarkup">
-                <div class="navbar-nav">
-                    <a class="navbar-brand text-white" href="index.html">
-                        <img src="assets/Imagenes/IconoYlogo.png" alt="Logo de hyperboost es un turbo" width="44"
-                            height="35" class="d-inline-block align-text-top">
-                        Inicio
-                    </a>
-                    <a class="nav-link text-white" href="index_nuestros_turbos.html">Nuestros Turbos</a>
-                    <a class="nav-link text-white" href="#">Contacto</a>
+        <!--   barra de navegacion -->
+        <nav class="navbar navbar-expand-lg navegacion mb-5 " id="inicio">
+            <div class="container-fluid">
+                <div class="collapse navbar-collapse " id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="navbar-brand text-white" href="index.html">
+                            <img src="assets/Imagenes/IconoYlogo.png" alt="Logo de hyperboost es un turbo" width="44"
+                                height="35" class="d-inline-block align-text-top">
+                            Inicio
+                        </a>
+                        <a class="nav-link text-white" href="index_nuestros_turbos.html">Nuestros Turbos</a>
+                        <a class="nav-link text-white" href="index_contacto.html">Contacto</a>
+
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div class="container container-fluid">
+            <h1>¡Nuestros Turbos!</h1>
+            <p>“Potencia sin límites para tu máquina. En HyperBoost llevamos el rendimiento de tu carro al siguiente
+                nivel.”</p>
+        </div>
+        <div class="container mt-5 rounded"> <!-- video -->
+            <video src="assets/Videos/Video funcionando.mp4" class="object-fit-cover" controls autoplay muted></video>
+        </div>
+    </center>
+
+    <!--   Esto es para las cards lo coloque en un contenedor para que se pegaran las cards -->
+    <div class="container">
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+                <div class="card h-100  bg-dark">
+                    <img src="assets/Imagenes/Imagen1.png" class="card-img-top img-fluid" alt="Imagen de un turbo">
+                    <div class="card-body bg-dark mt-5">
+                        <h5 class="card-title text-white">T04E</h5>
+                        <p class="card-text">“Potencia sin límites para tu máquina. Con el turbo modelo T04E llevamos el
+                            rendimiento de tu carro al siguiente nivel.”</p>
+                        <p class="card-text"> Precio: $850 </p>
+                        <audio src="assets/Sonidos/Sonido1.mp3" controls muted></audio>
+                        <a href="index_contacto.html" class="btn btn-danger btn-lg">Comprar</a>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100  bg-dark">
+                    <img src="assets/Imagenes/imagen2.png" class="card-img-top img-fluid" alt="Imagen de un turbo">
+                    <div class="card-body">
+                        <h5 class="card-title text-white">GTX3582R </h5>
+                        <p class="card-text text-white">“Potencia sin límites para tu máquina. Con el turbo modelo
+                            GTX3582R llevamos el
+                            rendimiento de tu carro al siguiente nivel.” </p>
+                        <h6 class="card-text"> Precio: $1,250 </h6>
+                        <audio src="assets/Sonidos/Sonido1.mp3" controls muted></audio>
+                        <a href="index_contacto.html" class="btn btn-danger btn-lg">Comprar</a>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100 bg-dark">
+                    <img src="assets/Imagenes/Imagen3Turbo.svg" class="card-img-top img-fluid"
+                        alt="Imagen de un turbo marca hyperboost">
+                    <div class="card-body">
+                        <h5 class="card-title text-white">HyperBoost-XTR-900</h5>
+                        <p class="card-text text-white">“Potencia sin límites para tu máquina. Con el turbo modelo
+                            HyperBoost-XTR-900 llevamos el
+                            rendimiento de tu carro al siguiente nivel.” </p>
+                        <h6 class="card-text"> Precio: $2.500 </h6>
+                        <audio src="assets/Sonidos/Sonido1.mp3" controls muted></audio>
+                        <a href="index_contacto.html" class="btn btn-danger btn-lg btn-outline">Comprar</a>
+                    </div>
 
                 </div>
             </div>
         </div>
-    </nav>
-    <div class="t_carousel center">
-        <div id="carouselExampleIndicators" class="carousel slide">
-            <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
-                    aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
-                    aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
-                    aria-label="Slide 3"></button>
-            </div>
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img src="assets/Imagenes/imagen2.png" class="d-block w-100" alt="Imagen de turbo">
-                </div>
-                <div class="carousel-item">
-                    <img src="assets/Imagenes/imagen1.png" class="d-block w-100" alt="imagen de turbo">
-                </div>
-                <div class="carousel-item">
-                    <img src="assets/Imagenes/Imagen3Turbo.svg" class="d-block w-100" alt="Imagen de un turbo">
-                </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
-                data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Anterior</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
-                data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Siguiente</span>
-            </button>
-        </div>
     </div>
+    <center>
+
+        <!-- La paginacion tambien se le dio color con css y lo de bootstrap -->
+        <div class="container container-fluid mt-5">
+            <nav aria-label="Page navigation example">
+                <ul class="pagination ">
+                    <li class="page-item"><a class="page-link bg-dark link_naranja" href="#">Anterior</a></li>
+                    <li class="page-item"><a class="page-link bg-dark link_naranja" href="#">1</a></li>
+                    <li class="page-item"><a class="page-link bg-dark link_naranja" href="#">2</a></li>
+                    <li class="page-item"><a class="page-link bg-dark link_naranja" href="#">3</a></li>
+                    <li class="page-item"><a class="page-link bg-dark link_naranja" href="#">Siguiente</a></li>
+                </ul>
+            </nav>
+        </div>
     </center>
+    <footer>
+        <p> &copy; Derechos reservados para HyperBoost | <a class="link_naranja" href="index.html">Volver al inicio</a>
+        </p>
+    </footer>
 </body>
 
 </html>

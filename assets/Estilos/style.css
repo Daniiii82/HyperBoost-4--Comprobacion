@@ -1,17 +1,36 @@
-body{
+body { /* color para todo el sitio */
     background-color: rgb(88, 50, 50);
-}
-.navegacion{
-    background-color: rgb(68, 39, 39);
-}
-h1, h2, h3, h4, h5, h6, p {
     color: white;
 }
-.t_carousel{
+
+.navegacion { /* color de la barra de navegacion */
+    background-color: rgb(68, 39, 39);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,                 /* Cambio de color a todas las opciones de letras */
+h6,
+p {
+    color: white;
+}
+
+.t_carousel { /* ajustar el tamaño del carrusel */
     width: 30%;
     height: auto;
 }
-video{
+
+video { /* ajustar el tamaño del video */
     width: 30%;
     height: auto;
+}
+.link_naranja{ /* color para unos links de volver al inicio */
+    color: orange;
+    text-decoration: none;
+}
+.link_naranja:hover{
+    color: rgb(190, 182, 68);
+    text-decoration: underline;
 }
