@@ -34,3 +34,6 @@ video { /* ajustar el tamaño del video */
     color: rgb(190, 182, 68);
     text-decoration: underline;
 }
+.card:hover{
+    transform: translateY(-5px)
+}
