@@ -1,0 +1,17 @@
+body{
+    background-color: rgb(88, 50, 50);
+}
+.navegacion{
+    background-color: rgb(68, 39, 39);
+}
+h1, h2, h3, h4, h5, h6, p {
+    color: white;
+}
+.t_carousel{
+    width: 30%;
+    height: auto;
+}
+video{
+    width: 30%;
+    height: auto;
+}
